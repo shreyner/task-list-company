@@ -20,7 +20,9 @@
   "homepage": "https://github.com/shreyner/task-list-company#readme",
   "devDependencies": {
     "@types/angular": "^1.6.32",
+    "@types/classnames": "^2.2.3",
     "awesome-typescript-loader": "^3.2.3",
+    "classnames": "^2.2.5",
     "css-loader": "^0.28.7",
     "html-loader": "^0.5.1",
     "html-webpack-plugin": "^2.30.1",
