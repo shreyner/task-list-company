@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "es2015",
+    "strict": true,                            /* Enable all strict type-checking options. */
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,                /* Report errors on unused locals. */
+    "noUnusedParameters": true,            /* Report errors on unused parameters. */
+    "noImplicitReturns": true,
+    "allowSyntheticDefaultImports": true,
+    "preserveConstEnums": true,
+    "lib": ["es2015", "dom"]
+  },
+  "files": [
+    "typings/index.d.ts",
+    "src/bootstrap.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
