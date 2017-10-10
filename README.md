@@ -21,6 +21,12 @@ npm start
 ```
 
 # Production Build
+1. [Install](#Install) 1 - 3
+2.
+```bash
+npm run build
+```
+
 todo
 
 # FAQ
