@@ -20,7 +20,7 @@ module.exports = {
 	plugins: [
 		new HtmlWebpackPlugin({
 			filename: "index.html",
-			template: "src/index.html",
+			template: "src/index.pug",
 			inject: "body",
 			hash: true
 		})
@@ -34,6 +34,13 @@ module.exports = {
 			},
 			{test: /\.ts$/, use: 'awesome-typescript-loader'},
 			{test: /\.html$/, use: 'html-loader'},
+			{
+				test: /\.pug$/, use: [
+				{
+					loader: 'pug-loader'
+				}
+			]
+			},
 			{test: /\.css$/, use: 'style!css'},
 			{
 				test: /\.scss$/,

@@ -1,0 +1,17 @@
+h1 Задания
+taskTabs
+table(class=bootstrap.table)
+    thead
+        tr
+            th ID
+            th Город
+            th Название
+            th Выполнить До
+            th Сумма
+    tbody
+        tr(ng-repeat="task in $ctrl.newTasksData")
+            th(scope="row") {{task.id}}
+            td {{task.city}}
+            td {{task.name}}
+            td {{task.execute_before}}
+            td {{task.sum}}
