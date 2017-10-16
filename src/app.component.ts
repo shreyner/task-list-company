@@ -1,13 +1,7 @@
 import * as angular from "angular";
 import Bootstrap from "bootstrap/scss/bootstrap.scss";
-
-const layout = `
-<navbar-main></navbar-main>
-<div class="${Bootstrap.container}">
-  <tasks />
-</div>
-`;
+import templatePug from "./app.pug";
 
 export const AppComponent: angular.IComponentOptions = {
-    template: layout,
+    template: templatePug({bootstrap: Bootstrap}),
 };
