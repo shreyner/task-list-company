@@ -18,8 +18,5 @@
   "files": [
     "typings/index.d.ts",
     "src/bootstrap.ts"
-  ],
-  "exclude": [
-    "node_modules"
   ]
 }
